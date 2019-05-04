@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+	list-style:none;
+	display:inline-block;
+}
+
+ul li {
+	float:left;
+}
+
+ul#menu {
+	text-align: center;
+}
+
+ul#menu li {
+	height:32px;
+}
+
+ul#menu li a {
+	display:block;
+	padding:7px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+ul#menu li a:hover {
+	background:#CCC;
+}
+
+ul#menu li ul {
+	display:none;
+}
+
+ul#menu li:hover ul {
+	display:block;
+	background:#999;
+	position:absolute;
+	top: 35px;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+}
+
+ul#menu li:hover ul li {
+	float:none;
+	position:relative; /* Gracias por el consejo, Álex */
+	background:#999;
+}
+
+ul#menu li ul li ul, ul#menu li:hover ul li ul {
+	display:none;
+}
+
+ul#menu li:hover ul li:hover ul {
+	display:block;
+	top:0;
+	left:100%;
+}
+
+/*
+
+
+#header_menu {
+	text-align: center;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 6px;
+	text-shadow: 0 0 150px #FFF, 0 0 60px #000, 0 0 10px #FFF
+}
+
+#header_menu li {
+	display: inline;
+	margin: 20px;
+	cursor: pointer;
+}
+
+*/

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lista_tabla {
+	border-left: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+}
+
+.lista_header {
+	background-color: #999;
+	color: #FFF;
+}
+
+.lista_celda {
+	border-bottom: solid 1px #999;
+}

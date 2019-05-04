@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Nova;
+	font-size: 12px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	font-family: Nova;
+	font-size: 12px;
+	height: 25px;
+	cursor: pointer;
+}
+
+input[type=text] {
+	font-family: Nova;
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	height: 18px;
+	background-color:#ddd;
+}
+
+input[type=password] {
+	font-family: Nova;
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	height: 18px;
+	background-color:#ddd;
+}
+
+.combo {
+	padding: 5px;
+	font-size: 12px;
+	font-family: Nova;
+	border: 1px solid #ccc;
+	height: 30px;
+	background-color:#ddd;
+	cursor: pointer;
+}
+
+#header {
+	height: 3px;
+	background-color:#428EEB;
+	border-bottom: solid 1px #04E0F5;
+}
+
+#header_menu {
+	height: 30px;
+	background-color:#0ECCFF;
+	color: #FFF;
+	border-bottom: solid 1px #098EB3;
+}
+
+#header_noticia {
+	height: 10px;
+}

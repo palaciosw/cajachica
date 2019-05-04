@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: "Edomhn";
+	src: url("../font/EDOMHN.TTF") format("truetype");
+}
+
+@font-face{
+	font-family: "Questrial";
+	src: url("../font/Questrial.woff") format("woff");
+}
+
+@font-face{
+	font-family: "Nova";
+	src: url("../font/Nova.woff") format("woff");
+}
